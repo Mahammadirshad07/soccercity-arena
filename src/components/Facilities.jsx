@@ -51,7 +51,7 @@ const Facilities = ({ number }) => {
     {
       category: 'OUTDOOR',
       name: 'VOLLEYBALL COURT',
-      emoji: '🏐',
+      
       pricing: {
         hourly: 1000,
         halfHour: null
