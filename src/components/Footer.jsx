@@ -56,7 +56,7 @@ const Footer = () => {
                 <div className="w-10 h-10 rounded-full bg-emerald-500/10 flex items-center justify-center shrink-0 border border-emerald-500/20">
                   <Phone className="text-emerald-500" size={18} />
                 </div>
-                <p className="text-white text-base font-black italic tracking-wider">+91 00000 00000</p>
+                <p className="text-white text-base font-black italic tracking-wider">+91 97402 65652</p>
               </div>
             </div>
           </div>
