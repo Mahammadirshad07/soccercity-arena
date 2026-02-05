@@ -174,48 +174,7 @@ const Facilities = ({ number }) => {
         ))}
       </div>
 
-      {/* Pricing Summary - Mobile Optimized */}
-<div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 mt-16 sm:mt-20 relative z-10">
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
-    {/* Indoor */}
-    <div className="relative group">
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
-      <div className="relative bg-gradient-to-br from-gray-900/90 to-black/90 backdrop-blur-xl border border-white/20 rounded-2xl p-6 sm:p-8 hover:border-white/40 transition-all duration-500">
-        {/* <div className="text-4xl sm:text-5xl md:text-6xl mb-4">🏠</div> */}
-        <h4 className="text-xl sm:text-2xl font-black uppercase mb-4 text-white tracking-wide">INDOOR GAMES</h4>
-        
-        {/* Mobile: Stacked layout, Desktop: Side-by-side */}
-        <div className="space-y-3 mb-4">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-3 sm:p-4 bg-white/5 rounded-lg">
-            <span className="text-gray-300 text-sm sm:text-base font-medium mb-1 sm:mb-0">8-Ball Pool</span>
-            <span className="text-yellow-400 font-bold text-lg sm:text-xl">₹80 / ₹150</span>
-          </div>
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-3 sm:p-4 bg-white/5 rounded-lg">
-            <span className="text-gray-300 text-sm sm:text-base font-medium mb-1 sm:mb-0">PS5 Gaming</span>
-            <span className="text-yellow-400 font-bold text-lg sm:text-xl">₹40 / ₹70</span>
-          </div>
-        </div>
-        
-        <p className="text-xs sm:text-sm text-gray-400 text-center">30min / 1hr rates</p>
-      </div>
-    </div>
-
-    {/* Outdoor */}
-    <div className="relative group">
-      <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-green-500 rounded-2xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
-      <div className="relative bg-gradient-to-br from-gray-900/90 to-black/90 backdrop-blur-xl border border-white/20 rounded-2xl p-6 sm:p-8 hover:border-white/40 transition-all duration-500">
-        {/* <div className="text-4xl sm:text-5xl md:text-6xl mb-4">🌳</div> */}
-        <h4 className="text-xl sm:text-2xl font-black uppercase mb-4 text-white tracking-wide">OUTDOOR SPORTS</h4>
-        <div className="text-4xl sm:text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500 mb-4">
-          ₹1000/HR
-        </div>
-        <p className="text-base sm:text-lg text-gray-300 mb-2">Cricket • Football • Volleyball</p>
-        <p className="text-xs sm:text-sm text-gray-400 mt-1 sm:mt-3">Professional turfs with floodlights</p>
-      </div>
-    </div>
-  </div>
-</div>
-
+   
     </section>
   );
 };
