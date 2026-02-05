@@ -1,4 +1,4 @@
-export const WhatsAppButton = ({ number = "919740265652" }) => (
+export const WhatsAppButton = ({ number = "919187345930" }) => (
   <a 
     href={`https://wa.me/${number}?text=Hi%20Soccer%20City!%20I'd%20like%20to%20book%20a%20slot.`} 
     target="_blank" 

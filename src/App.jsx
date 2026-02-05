@@ -7,7 +7,7 @@ import { WhatsAppButton } from "./components/common/WhatsAppButton";
 import Footer from "./components/Footer";
 
 const App = () => {
-  const whatsappNumber = '919740265652';
+  const whatsappNumber = '919187345930';
   
   return (
     <div className="min-h-screen font-sans antialiased bg-gradient-to-br from-black via-gray-900 to-emerald-900/10">
