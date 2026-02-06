@@ -8,35 +8,35 @@ const Hero = ({ number }) => {
     {
       img: 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=2000&auto=format&fit=crop',
       title: 'CRICKET TURF',
-      emoji: '🏏',
+      
       subtitle: 'FLOODLIT • 50x30M • SYNTHETIC',
       color: 'from-emerald-400 to-green-500'
     },
     {
       img: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=2000&auto=format&fit=crop',
       title: 'FOOTBALL FIELD',
-      emoji: '⚽',
+      
       subtitle: 'FIFA 5-A-SIDE • NIGHT LIGHTS',
       color: 'from-red-500 to-orange-500'
     },
     {
       img: 'https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?q=80&w=2000&auto=format&fit=crop',
       title: 'PS5 GAMING',
-      emoji: '🎮',
+      
       subtitle: '4K • AC ROOM • LATEST TITLES',
       color: 'from-purple-500 to-pink-500'
     },
     {
       img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjhmlwrhmqajgVbi-FNStVAE0CVSs6DBy-BA&s',
       title: '8-BALL POOL',
-      emoji: '🎱',
+      
       subtitle: 'PRO TABLE • TOURNAMENTS',
       color: 'from-blue-500 to-indigo-600'
     },
     {
       img: 'https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_xl/f_auto/primary/a1mdtk6qn3nepjexqi9y',
       title: 'VOLLEYBALL',
-      emoji: '🏐',
+      
       subtitle: 'SAND COURT • FLOODLIGHTS',
       color: 'from-yellow-400 to-orange-400'
     }
